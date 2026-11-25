@@ -1,0 +1,6 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Main",
+  "theorem_names": ["main_thm"],
+  "permitted_axioms": ["propext", "Quot.sound", "Classical.choice"]
+}

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 909 446" width="909" height="446" role="img" aria-label="leanstat output for the Riemann Hypothesis formalization">
+<style>text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace;font-size:13px;white-space:pre}.n{fill:#c9d1d9}.k{fill:#8b949e}.cmd{fill:#e6edf3}.ok{fill:#3fb950}.v{fill:#e6edf3;font-weight:700}.note{fill:#8b949e;font-style:italic}</style>
+<rect width="909" height="446" rx="10" fill="#0d1117"/>
+<circle cx="24" cy="22" r="6" fill="#ff5f57"/><circle cx="44" cy="22" r="6" fill="#febc2e"/><circle cx="64" cy="22" r="6" fill="#28c840"/>
+<text x="18" y="54" class="cmd" xml:space="preserve">$ python3 leanstat.py riemann-hypothesis</text>
+<text x="18" y="73" class="v" xml:space="preserve">leanstat  riemann-hypothesis  (toolchain leanprover/lean4:v4.37.0-rc1, mathlib 31ce06eaad)</text>
+<text x="18" y="111" xml:space="preserve">  <tspan class="k">files</tspan>          <tspan class="n"><tspan class="v">59,773</tspan></tspan></text>
+<text x="18" y="130" xml:space="preserve">  <tspan class="k">lines</tspan>          <tspan class="n"><tspan class="v">15,657,390</tspan>   code <tspan class="v">13,710,596</tspan> · comments <tspan class="v">244,432</tspan> · blank <tspan class="v">1,702,362</tspan></tspan></text>
+<text x="18" y="149" xml:space="preserve">  <tspan class="k">declarations</tspan>   <tspan class="n"><tspan class="v">755,644</tspan>   theorem <tspan class="v">566,128</tspan> · lemma <tspan class="v">26,670</tspan> · def <tspan class="v">140,453</tspan> · abbrev <tspan class="v">10,019</tspan> · instance <tspan class="v">5,976</tspan> · stru…</tspan></text>
+<text x="18" y="168" xml:space="preserve">  <tspan class="k">longest decl</tspan>   <tspan class="n"><tspan class="v">483</tspan> lines: theorem ring_objects_of_matrix_data (src/Formalism/WachLatticeTwists/RamifiedBlockR…</tspan></text>
+<text x="18" y="187" xml:space="preserve">  <tspan class="k">biggest file</tspan>   <tspan class="n"><tspan class="v">14,157</tspan> code lines: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/IsAdmissibleSplit…</tspan></text>
+<text x="18" y="206" xml:space="preserve">  <tspan class="k">imports</tspan>        <tspan class="n"><tspan class="v">367,133</tspan> internal edges · longest chain <tspan class="v">95</tspan> modules · imports of Mathlib ×<tspan class="v">1,826,581,</tspan> Std ×<tspan class="v">7,179,</tspan>…</tspan></text>
+<text x="18" y="244" xml:space="preserve">  <tspan class="k">comparator</tspan>     <tspan class="n">comparator.json: <tspan class="v">5</tspan> theorem(s), challenge Challenge (src/Challenge.lean), solution Main, axioms…</tspan></text>
+<text x="18" y="263" xml:space="preserve">  <tspan class="k">checked proof</tspan>  <tspan class="n">the solution module(s) import <tspan class="v">59,723</tspan> files (<tspan class="v">13,704,885</tspan> code lines); <tspan class="v">49</tspan> other files (<tspan class="v">5,694</tspan> line…</tspan></text>
+<text x="18" y="282" xml:space="preserve">  <tspan class="k">sorry/admit</tspan>    <tspan class="ok">none inside the solution&#x27;s imports</tspan></text>
+<text x="18" y="301" class="n" xml:space="preserve">                 5 in comparator challenge files, where statements are left as sorry on purpose</text>
+<text x="18" y="320" class="n" xml:space="preserve">                 2 in files the solution doesn&#x27;t import, e.g. comparator/FormalConjecturesChallenge.lean:84, co…</text>
+<text x="18" y="339" xml:space="preserve">  <tspan class="k">axioms</tspan>         <tspan class="ok">none declared</tspan></text>
+<text x="18" y="358" xml:space="preserve">  <tspan class="k">trust flags</tspan>    <tspan class="ok">none inside the solution&#x27;s imports (unsafe ×2 in other files)</tspan></text>
+<text x="18" y="377" xml:space="preserve">  <tspan class="k">heartbeats</tspan>     <tspan class="n">maxHeartbeats <tspan class="v">0</tspan> ×<tspan class="v">2</tspan> · largest explicit value <tspan class="v">64,000,000</tspan></tspan></text>
+<text x="18" y="415" class="note" xml:space="preserve">  Counts only. A clean list here is not a proof check: build the project and run comparator or #print axioms.</text>
+</svg>

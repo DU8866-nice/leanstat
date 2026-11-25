@@ -1,0 +1,222 @@
+{
+ "root": "/tmp/lean/mccorvie_riemann-masullo",
+ "name": "mccorvie_riemann-masullo",
+ "meta": {
+  "toolchain": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577"
+ },
+ "files": 594,
+ "lines": {
+  "lines": 556088,
+  "code": 478075,
+  "comment": 46288,
+  "blank": 31725
+ },
+ "declarations": {
+  "theorem": 18543,
+  "def": 2021,
+  "abbrev": 132,
+  "lemma": 325,
+  "instance": 540,
+  "structure": 16,
+  "inductive": 1,
+  "example": 1
+ },
+ "theorems": 18868,
+ "biggest_files": [
+  {
+   "file": "RiemannMasullo/AppB_AnalyticNT/Sec4b.lean",
+   "code": 15407
+  },
+  {
+   "file": "RiemannMasullo/Ch01_Introduction/Sec4.lean",
+   "code": 14276
+  },
+  {
+   "file": "RiemannMasullo/Ch05_ThetaZSpaces/Sec3a.lean",
+   "code": 11099
+  },
+  {
+   "file": "RiemannMasullo/Ch05_ThetaZSpaces/Sec3b.lean",
+   "code": 10755
+  },
+  {
+   "file": "RiemannMasullo/Ch07_SchauderBasesZeta/Sec4.lean",
+   "code": 9500
+  },
+  {
+   "file": "RiemannMasullo/Ch07_SchauderBasesZeta/Sec3b.lean",
+   "code": 9430
+  },
+  {
+   "file": "RiemannMasullo/Ch10_TraceSpectral/Sec2.lean",
+   "code": 8431
+  },
+  {
+   "file": "RiemannMasullo/AppA_AlgebraicNT/Sec3.lean",
+   "code": 7591
+  },
+  {
+   "file": "RiemannMasullo/AppD_SchwartzBruhat/Sec1c.lean",
+   "code": 7547
+  },
+  {
+   "file": "RiemannMasullo/Ch03_IdelicZeta/Sec4.lean",
+   "code": 7240
+  }
+ ],
+ "longest_declaration": {
+  "lines": 498,
+  "name": "theorem infiniteEigendistribution_eq_zero_of_gaussian_proof",
+  "file": "RiemannMasullo/Ch03_IdelicZeta/Sec4.lean",
+  "line": 5349
+ },
+ "sorry": {
+  "total": 28,
+  "in_proof": 8,
+  "in_challenge": 7,
+  "elsewhere": 13,
+  "where_proof": [
+   "RiemannMasullo/Ch05_ThetaZSpaces/Sec3a.lean:6711",
+   "RiemannMasullo/Ch07_SchauderBasesZeta/Sec3b.lean:5978",
+   "RiemannMasullo/Ch10_TraceSpectral/Sec2.lean:8587",
+   "RiemannMasullo/Ch10_TraceSpectral/Sec2.lean:8599",
+   "RiemannMasullo/Ch10_TraceSpectral/Sec2.lean:8611",
+   "RiemannMasullo/Ch10_TraceSpectral/Sec3.lean:1843",
+   "RiemannMasullo/Ch12_TraceGeometric/Sec5.lean:100",
+   "RiemannMasullo/ForMathlib/NumberTheory/LinearFormsInLogarithms.lean:93"
+  ],
+  "where_elsewhere": [
+   "RiemannMasullo/Ch07_SchauderBasesZeta/Sec3b_Isolated.lean:2508",
+   "RiemannMasullo/Ch07_SchauderBasesZeta/Sec3b_Isolated.lean:2520",
+   "RiemannMasullo/Ch10_TraceSpectral/Sec3_HeckeCutoffs.lean:112",
+   "RiemannMasullo/Ch10_TraceSpectral/Sec3_HeckeCutoffs.lean:113",
+   "RiemannMasullo/Ch10_TraceSpectral/Sec3_HeckeCutoffs.lean:114",
+   "RiemannMasullo/Ch10_TraceSpectral/Sec3_HeckeCutoffs.lean:115",
+   "RiemannMasullo/Ch10_TraceSpectral/Sec3_HeckeCutoffs.lean:116",
+   "RiemannMasullo/Ch10_TraceSpectral/Sec3_Isolated.lean:385",
+   "RiemannMasullo/Ch10_TraceSpectral/Sec3_Printed.lean:305",
+   "RiemannMasullo/Ch10_TraceSpectral/Sec4a_Isolated.lean:296",
+   "RiemannMasullo/Ch10_TraceSpectral/Sec4a_Isolated.lean:333",
+   "RiemannMasullo/Ch10_TraceSpectral/Sec4b_Isolated.lean:951",
+   "RiemannMasullo/Ch12_TraceGeometric/Sec5_Isolated.lean:55"
+  ]
+ },
+ "solution_closure": {
+  "files": 349,
+  "code": 353933,
+  "unused_files": 244,
+  "unused_code": 124134
+ },
+ "axioms": [],
+ "flags": {
+  "native_decide": {
+   "count": 0,
+   "in_proof": 0,
+   "files": []
+  },
+  "implemented_by": {
+   "count": 0,
+   "in_proof": 0,
+   "files": []
+  },
+  "extern": {
+   "count": 0,
+   "in_proof": 0,
+   "files": []
+  },
+  "unsafe": {
+   "count": 1,
+   "in_proof": 0,
+   "files": [
+    "scripts/ci/CommandKeywords.lean"
+   ]
+  },
+  "skipKernelTC": {
+   "count": 0,
+   "in_proof": 0,
+   "files": []
+  }
+ },
+ "heartbeats": {
+  "set_to_zero": 0,
+  "largest": 4000000
+ },
+ "metaprogramming": 0,
+ "imports": {
+  "internal_edges": 1519,
+  "longest_chain": 41,
+  "most_imported": [
+   {
+    "file": "RiemannMasullo/ForMathlib/NumberTheory/NumberField/Completion/FinitePlace.lean",
+    "importers": 48
+   },
+   {
+    "file": "RiemannMasullo/Ch10_TraceSpectral/Sec1.lean",
+    "importers": 37
+   },
+   {
+    "file": "RiemannMasullo/ForMathlib/MeasureTheory/Group/Arithmetic.lean",
+    "importers": 29
+   },
+   {
+    "file": "RiemannMasullo/Ch03_IdelicZeta/Sec2.lean",
+    "importers": 29
+   },
+   {
+    "file": "RiemannMasullo/AppA_AlgebraicNT/Sec3.lean",
+    "importers": 28
+   },
+   {
+    "file": "RiemannMasullo/AppD_SchwartzBruhat/Sec1b.lean",
+    "importers": 20
+   },
+   {
+    "file": "RiemannMasullo/AppD_SchwartzBruhat/Sec3a.lean",
+    "importers": 19
+   },
+   {
+    "file": "RiemannMasullo/Ch02_AdelicTheta/Sec2b.lean",
+    "importers": 19
+   },
+   {
+    "file": "RiemannMasullo/ForMathlib/Analysis/SpecialFunctions/Pow/Complex.lean",
+    "importers": 17
+   },
+   {
+    "file": "RiemannMasullo/AppD_SchwartzBruhat/Sec1c.lean",
+    "importers": 17
+   }
+  ],
+  "external_roots": {
+   "Mathlib": 2460,
+   "Lean": 5,
+   "Nyll": 3
+  }
+ },
+ "comparators": [
+  {
+   "file": "comparator.json",
+   "challenge": "Challenge",
+   "solution": "Main",
+   "theorems": [
+    "riemannHypothesis",
+    "riemannZeta_eq_zero_re",
+    "LFunction_ne_zero_of_half_lt_re",
+    "LFunction_eq_zero_re",
+    "LFunction_eq_zero_re_of_isPrimitive",
+    "dedekindZeta_zeros_re",
+    "heckeLFunction_zeros_re"
+   ],
+   "axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+   ],
+   "challenge_file": "Challenge.lean"
+  }
+ ],
+ "challenge_files": [
+  "Challenge.lean"
+ ]
+}

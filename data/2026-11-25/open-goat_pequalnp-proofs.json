@@ -1,0 +1,169 @@
+{
+ "root": "/tmp/lean/open-goat_pequalnp-proofs",
+ "name": "open-goat_pequalnp-proofs",
+ "meta": {
+  "mathlib": "fc4f59e577"
+ },
+ "files": 4150,
+ "lines": {
+  "lines": 3857497,
+  "code": 3578380,
+  "comment": 31995,
+  "blank": 247122
+ },
+ "declarations": {
+  "def": 202764,
+  "structure": 988,
+  "theorem": 202894,
+  "abbrev": 7995,
+  "instance": 478,
+  "inductive": 1465,
+  "lemma": 90869,
+  "example": 43
+ },
+ "theorems": 293763,
+ "biggest_files": [
+  {
+   "file": "lean/PEqualNP/Outside/L_meta_540.lean",
+   "code": 10390
+  },
+  {
+   "file": "lean/PEqualNP/Outside/L_meta_701.lean",
+   "code": 10296
+  },
+  {
+   "file": "lean/PEqualNP/Outside/L_meta_4369.lean",
+   "code": 10066
+  },
+  {
+   "file": "lean/PEqualNP/Outside/L_meta_3091.lean",
+   "code": 10058
+  },
+  {
+   "file": "lean/PEqualNP/Outside/L_meta_3760.lean",
+   "code": 10027
+  },
+  {
+   "file": "lean/PEqualNP/Outside/L_meta_2264.lean",
+   "code": 9191
+  },
+  {
+   "file": "lean/PEqualNP/Outside/L_meta_3885.lean",
+   "code": 9124
+  },
+  {
+   "file": "lean/PEqualNP/Outside/L_meta_1321.lean",
+   "code": 9055
+  },
+  {
+   "file": "lean/PEqualNP/Outside/L_meta_3975.lean",
+   "code": 9022
+  },
+  {
+   "file": "lean/PEqualNP/Outside/L_meta_4338.lean",
+   "code": 8996
+  }
+ ],
+ "longest_declaration": {
+  "lines": 3023,
+  "name": "theorem PEqualNP.Outside.R_meta_4330_430",
+  "file": "lean/PEqualNP/Outside/R_meta_4330_430.lean",
+  "line": 7
+ },
+ "sorry": {
+  "total": 0,
+  "in_proof": null,
+  "in_challenge": 0,
+  "elsewhere": 0,
+  "where_proof": [],
+  "where_elsewhere": []
+ },
+ "solution_closure": null,
+ "axioms": [],
+ "flags": {
+  "native_decide": {
+   "count": 0,
+   "in_proof": null,
+   "files": []
+  },
+  "implemented_by": {
+   "count": 0,
+   "in_proof": null,
+   "files": []
+  },
+  "extern": {
+   "count": 0,
+   "in_proof": null,
+   "files": []
+  },
+  "unsafe": {
+   "count": 3,
+   "in_proof": null,
+   "files": [
+    "lean/CheckLemma.lean"
+   ]
+  },
+  "skipKernelTC": {
+   "count": 0,
+   "in_proof": null,
+   "files": []
+  }
+ },
+ "heartbeats": {
+  "set_to_zero": 74671,
+  "largest": 500000000
+ },
+ "metaprogramming": 1,
+ "imports": {
+  "internal_edges": 5066,
+  "longest_chain": 43,
+  "most_imported": [
+   {
+    "file": "lean/PEqualNP/Defs.lean",
+    "importers": 3058
+   },
+   {
+    "file": "lean/PEqualNP/Library/Machines/Run.lean",
+    "importers": 23
+   },
+   {
+    "file": "lean/PEqualNP/Library/Machines/Pairing.lean",
+    "importers": 18
+   },
+   {
+    "file": "lean/PEqualNP/Defs/MetaComplexityMinimal.lean",
+    "importers": 17
+   },
+   {
+    "file": "lean/PEqualNP/Defs/CircuitLowerBounds.lean",
+    "importers": 15
+   },
+   {
+    "file": "lean/PEqualNP/ProofComplexity/Helpers/PCToolkit.lean",
+    "importers": 14
+   },
+   {
+    "file": "lean/PEqualNP/MetaComplexity/Helpers/Shannon.lean",
+    "importers": 12
+   },
+   {
+    "file": "lean/PEqualNP/Defs/MetaComplexity.lean",
+    "importers": 12
+   },
+   {
+    "file": "lean/PEqualNP/Gct/Helpers/Rung/Statements.lean",
+    "importers": 12
+   },
+   {
+    "file": "lean/PEqualNP/Library/Universal/SStepCPT.lean",
+    "importers": 11
+   }
+  ],
+  "external_roots": {
+   "Mathlib": 3837,
+   "Lean": 1
+  }
+ },
+ "comparators": [],
+ "challenge_files": []
+}

@@ -1,0 +1,198 @@
+{
+ "root": "/tmp/lean/teorth_pfr",
+ "name": "teorth_pfr",
+ "meta": {
+  "toolchain": "leanprover/lean4:v4.37.0-rc1",
+  "mathlib": "c47f9ad906"
+ },
+ "files": 74,
+ "lines": {
+  "lines": 21881,
+  "code": 18250,
+  "comment": 1628,
+  "blank": 2003
+ },
+ "declarations": {
+  "theorem": 83,
+  "def": 62,
+  "lemma": 840,
+  "example": 38,
+  "instance": 41,
+  "class": 3,
+  "abbrev": 9,
+  "structure": 5,
+  "inductive": 2
+ },
+ "theorems": 923,
+ "biggest_files": [
+  {
+   "file": "PFR/MoreRuzsaDist.lean",
+   "code": 2323
+  },
+  {
+   "file": "PFR/RhoFunctional.lean",
+   "code": 1889
+  },
+  {
+   "file": "PFR/ForMathlib/Entropy/RuzsaDist.lean",
+   "code": 1264
+  },
+  {
+   "file": "PFR/TorsionEndgame.lean",
+   "code": 986
+  },
+  {
+   "file": "PFR/WeakPFR.lean",
+   "code": 955
+  },
+  {
+   "file": "PFR/ForMathlib/Entropy/Basic.lean",
+   "code": 901
+  },
+  {
+   "file": "PFR/ImprovedPFR.lean",
+   "code": 884
+  },
+  {
+   "file": "PFR/Mathlib/Probability/Kernel/Disintegration.lean",
+   "code": 819
+  },
+  {
+   "file": "PFR/ForMathlib/Entropy/Measure.lean",
+   "code": 688
+  },
+  {
+   "file": "PFR/BoundingMutual.lean",
+   "code": 406
+  }
+ ],
+ "longest_declaration": {
+  "lines": 327,
+  "name": "lemma mutual_information_le",
+  "file": "PFR/BoundingMutual.lean",
+  "line": 107
+ },
+ "sorry": {
+  "total": 6,
+  "in_proof": 0,
+  "in_challenge": 6,
+  "elsewhere": 0,
+  "where_proof": [],
+  "where_elsewhere": []
+ },
+ "solution_closure": {
+  "files": 68,
+  "code": 17978,
+  "unused_files": 5,
+  "unused_code": 228
+ },
+ "axioms": [],
+ "flags": {
+  "native_decide": {
+   "count": 0,
+   "in_proof": 0,
+   "files": []
+  },
+  "implemented_by": {
+   "count": 0,
+   "in_proof": 0,
+   "files": []
+  },
+  "extern": {
+   "count": 0,
+   "in_proof": 0,
+   "files": []
+  },
+  "unsafe": {
+   "count": 1,
+   "in_proof": 1,
+   "files": [
+    "PFR/ForMathlib/Entropy/RuzsaSetDist.lean"
+   ]
+  },
+  "skipKernelTC": {
+   "count": 0,
+   "in_proof": 0,
+   "files": []
+  }
+ },
+ "heartbeats": {
+  "set_to_zero": 0,
+  "largest": 0
+ },
+ "metaprogramming": 6,
+ "imports": {
+  "internal_edges": 183,
+  "longest_chain": 20,
+  "most_imported": [
+   {
+    "file": "PFR/ForMathlib/Entropy/RuzsaDist.lean",
+    "importers": 6
+   },
+   {
+    "file": "PFR/ForMathlib/FiniteRange/Defs.lean",
+    "importers": 6
+   },
+   {
+    "file": "PFR/Main.lean",
+    "importers": 5
+   },
+   {
+    "file": "PFR/Mathlib/Probability/IdentDistrib.lean",
+    "importers": 5
+   },
+   {
+    "file": "PFR/Mathlib/Probability/Independence/Basic.lean",
+    "importers": 5
+   },
+   {
+    "file": "PFR/Mathlib/Data/Set/Card.lean",
+    "importers": 4
+   },
+   {
+    "file": "PFR/RhoFunctional.lean",
+    "importers": 4
+   },
+   {
+    "file": "PFR/ApproxHomPFR.lean",
+    "importers": 3
+   },
+   {
+    "file": "PFR/FirstEstimate.lean",
+    "importers": 3
+   },
+   {
+    "file": "PFR/ForMathlib/Entropy/Basic.lean",
+    "importers": 3
+   }
+  ],
+  "external_roots": {
+   "Mathlib": 74,
+   "AddCombi": 1
+  }
+ },
+ "comparators": [
+  {
+   "file": "comparator.json",
+   "challenge": "PFRPalomar.Challenge",
+   "solution": "PFRPalomar.Solution",
+   "theorems": [
+    "Marton.pfr_conjecture",
+    "Marton.pfr_conjecture_nine",
+    "Marton.torsion_pfr_conjecture",
+    "Marton.weak_pfr_int",
+    "Marton.homomorphism_pfr",
+    "Marton.approx_hom_pfr"
+   ],
+   "axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+   ],
+   "challenge_file": "PFRPalomar/Challenge.lean"
+  }
+ ],
+ "challenge_files": [
+  "PFRPalomar/Challenge.lean"
+ ]
+}

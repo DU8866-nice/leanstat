@@ -1,0 +1,197 @@
+{
+ "root": "/tmp/lean/leanprover-community_mathlib4/Mathlib",
+ "name": "Mathlib",
+ "meta": {},
+ "files": 8734,
+ "lines": {
+  "lines": 2381554,
+  "code": 1551924,
+  "comment": 359764,
+  "blank": 469866
+ },
+ "declarations": {
+  "structure": 1728,
+  "class": 2026,
+  "theorem": 131056,
+  "instance": 27957,
+  "def": 33535,
+  "lemma": 62066,
+  "abbrev": 3693,
+  "example": 553,
+  "inductive": 335,
+  "irreducible_def": 1,
+  "opaque": 2
+ },
+ "theorems": 193122,
+ "biggest_files": [
+  {
+   "file": "Probability/Process/Stopping.lean",
+   "code": 1166
+  },
+  {
+   "file": "GroupTheory/OrderOfElement.lean",
+   "code": 1129
+  },
+  {
+   "file": "AlgebraicGeometry/AffineTransitionLimit.lean",
+   "code": 1124
+  },
+  {
+   "file": "Data/Set/Card.lean",
+   "code": 1111
+  },
+  {
+   "file": "RingTheory/MvPolynomial/MonomialOrder.lean",
+   "code": 1092
+  },
+  {
+   "file": "Algebra/Module/LocalizedModule/Basic.lean",
+   "code": 1089
+  },
+  {
+   "file": "Algebra/Order/ToIntervalMod.lean",
+   "code": 1088
+  },
+  {
+   "file": "Geometry/Euclidean/Incenter/Basic.lean",
+   "code": 1086
+  },
+  {
+   "file": "Analysis/RCLike/Basic.lean",
+   "code": 1072
+  },
+  {
+   "file": "MeasureTheory/Integral/Bochner/Basic.lean",
+   "code": 1070
+  }
+ ],
+ "longest_declaration": {
+  "lines": 364,
+  "name": "def findModelInner",
+  "file": "Geometry/Manifold/Notation.lean",
+  "line": 401
+ },
+ "sorry": {
+  "total": 0,
+  "in_proof": null,
+  "in_challenge": 0,
+  "elsewhere": 0,
+  "where_proof": [],
+  "where_elsewhere": []
+ },
+ "solution_closure": null,
+ "axioms": [],
+ "flags": {
+  "native_decide": {
+   "count": 0,
+   "in_proof": null,
+   "files": []
+  },
+  "implemented_by": {
+   "count": 0,
+   "in_proof": null,
+   "files": []
+  },
+  "extern": {
+   "count": 0,
+   "in_proof": null,
+   "files": []
+  },
+  "unsafe": {
+   "count": 163,
+   "in_proof": null,
+   "files": [
+    "Algebra/BigOperators/ModEq.lean",
+    "Algebra/Group/Even.lean",
+    "Algebra/Group/Subgroup/Defs.lean",
+    "Algebra/Order/CauSeq/Completion.lean",
+    "Algebra/Order/Ring/Ordering/Basic.lean",
+    "Algebra/Order/Ring/Ordering/Defs.lean",
+    "Algebra/Ring/SumsOfSquares.lean",
+    "Analysis/Calculus/FDeriv/Measurable.lean",
+    "Analysis/Real/Pi/Bounds.lean",
+    "Analysis/SpecialFunctions/Pow/NNReal.lean",
+    "Basic/Complex/Basic.lean",
+    "Basic/ENNReal/Basic.lean",
+    "Basic/ENNReal/Inv.lean",
+    "Basic/ENNReal/Operations.lean",
+    "Basic/NNReal/Defs.lean",
+    "Basic/Real/Basic.lean",
+    "Combinatorics/Additive/Energy.lean",
+    "Combinatorics/Enumerative/IncidenceAlgebra.lean",
+    "Combinatorics/Matroid/Basic.lean",
+    "Combinatorics/Matroid/Circuit.lean"
+   ]
+  },
+  "skipKernelTC": {
+   "count": 0,
+   "in_proof": null,
+   "files": []
+  }
+ },
+ "heartbeats": {
+  "set_to_zero": 3,
+  "largest": 80000
+ },
+ "metaprogramming": 836,
+ "imports": {
+  "internal_edges": 23944,
+  "longest_chain": 179,
+  "most_imported": [
+   {
+    "file": "Init.lean",
+    "importers": 205
+   },
+   {
+    "file": "Algebra/BigOperators/Group/Finset/Basic.lean",
+    "importers": 40
+   },
+   {
+    "file": "Algebra/Order/Group/Nat.lean",
+    "importers": 38
+   },
+   {
+    "file": "Tactic/Common.lean",
+    "importers": 37
+   },
+   {
+    "file": "Algebra/Field/Defs.lean",
+    "importers": 34
+   },
+   {
+    "file": "Tactic/Ring.lean",
+    "importers": 34
+   },
+   {
+    "file": "Algebra/Group/Basic.lean",
+    "importers": 33
+   },
+   {
+    "file": "Algebra/Order/BigOperators/Group/Finset.lean",
+    "importers": 33
+   },
+   {
+    "file": "Tactic/Linter/Header.lean",
+    "importers": 33
+   },
+   {
+    "file": "Algebra/Order/Ring/Defs.lean",
+    "importers": 31
+   }
+  ],
+  "external_roots": {
+   "Lean": 321,
+   "Batteries": 130,
+   "Aesop": 26,
+   "ProofWidgets": 25,
+   "Std": 13,
+   "Qq": 11,
+   "Plausible": 9,
+   "ImportGraph": 8,
+   "Init": 7,
+   "LeanSearchClient": 1
+  }
+ },
+ "comparators": [],
+ "challenge_files": []
+}

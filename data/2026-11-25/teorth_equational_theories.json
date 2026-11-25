@@ -1,0 +1,190 @@
+{
+ "root": "/tmp/lean/teorth_equational_theories",
+ "name": "teorth_equational_theories",
+ "meta": {
+  "toolchain": "leanprover/lean4:v4.29.1",
+  "mathlib": "5e932f97dd"
+ },
+ "files": 1347,
+ "lines": {
+  "lines": 166898,
+  "code": 143114,
+  "comment": 8806,
+  "blank": 14978
+ },
+ "declarations": {
+  "def": 1898,
+  "theorem": 13709,
+  "structure": 60,
+  "abbrev": 278,
+  "instance": 187,
+  "lemma": 636,
+  "inductive": 53,
+  "class": 35,
+  "axiom": 1,
+  "example": 6,
+  "opaque": 1
+ },
+ "theorems": 14345,
+ "biggest_files": [
+  {
+   "file": "equational_theories/Generated/TrivialBruteforce/theorems/NthRewrites.lean",
+   "code": 10361
+  },
+  {
+   "file": "equational_theories/Generated/TrivialBruteforce/theorems/RewriteCombinations.lean",
+   "code": 4733
+  },
+  {
+   "file": "equational_theories/Generated/EquationSearch/theorems/Combined.lean",
+   "code": 4689
+  },
+  {
+   "file": "equational_theories/Generated/TrivialBruteforce/theorems/RewriteHypothesisAndGoal.lean",
+   "code": 3159
+  },
+  {
+   "file": "equational_theories/Generated/Greedy/Eq511.lean",
+   "code": 3078
+  },
+  {
+   "file": "equational_theories/Generated/Greedy/Eq118.lean",
+   "code": 2739
+  },
+  {
+   "file": "equational_theories/ManuallyProved/Equation1692.lean",
+   "code": 2452
+  },
+  {
+   "file": "equational_theories/Duals/All.lean",
+   "code": 2368
+  },
+  {
+   "file": "equational_theories/ManuallyProved/Equation1729/MagmaConstruction.lean",
+   "code": 2206
+  },
+  {
+   "file": "equational_theories/Generated/FiniteImplicationSearch/theorems/Inverses1.lean",
+   "code": 2194
+  }
+ ],
+ "longest_declaration": {
+  "lines": 713,
+  "name": "theorem rule_1_preserved",
+  "file": "equational_theories/Generated/Greedy/Eq118.lean",
+  "line": 425
+ },
+ "sorry": {
+  "total": 0,
+  "in_proof": null,
+  "in_challenge": 0,
+  "elsewhere": 0,
+  "where_proof": [],
+  "where_elsewhere": []
+ },
+ "solution_closure": null,
+ "axioms": [
+  "conjectureAx (equational_theories/EquationalResult.lean)"
+ ],
+ "flags": {
+  "native_decide": {
+   "count": 0,
+   "in_proof": null,
+   "files": []
+  },
+  "implemented_by": {
+   "count": 1,
+   "in_proof": null,
+   "files": [
+    "equational_theories/MemoFinOp.lean"
+   ]
+  },
+  "extern": {
+   "count": 0,
+   "in_proof": null,
+   "files": []
+  },
+  "unsafe": {
+   "count": 13,
+   "in_proof": null,
+   "files": [
+    "equational_theories/Duals/Command.lean",
+    "equational_theories/Equations/Command.lean",
+    "equational_theories/ManuallyProved/Equation1076.lean",
+    "equational_theories/ManuallyProved/Equation1289.lean",
+    "equational_theories/ManuallyProved/Equation1722.lean",
+    "equational_theories/ManuallyProved/Equation3308.lean",
+    "equational_theories/ManuallyProved/Equation713.lean",
+    "equational_theories/MemoFinOp.lean",
+    "equational_theories/SmallMagmas.lean"
+   ]
+  },
+  "skipKernelTC": {
+   "count": 0,
+   "in_proof": null,
+   "files": []
+  }
+ },
+ "heartbeats": {
+  "set_to_zero": 0,
+  "largest": 4000000
+ },
+ "metaprogramming": 45,
+ "imports": {
+  "internal_edges": 7086,
+  "longest_chain": 19,
+  "most_imported": [
+   {
+    "file": "equational_theories/Equations/All.lean",
+    "importers": 1229
+   },
+   {
+    "file": "equational_theories/FactsSyntax.lean",
+    "importers": 1108
+   },
+   {
+    "file": "equational_theories/DecideBang.lean",
+    "importers": 1084
+   },
+   {
+    "file": "equational_theories/MemoFinOp.lean",
+    "importers": 1082
+   },
+   {
+    "file": "equational_theories/Magma.lean",
+    "importers": 70
+   },
+   {
+    "file": "equational_theories/EndToEnd/Load.lean",
+    "importers": 34
+   },
+   {
+    "file": "equational_theories/EquationalResult.lean",
+    "importers": 28
+   },
+   {
+    "file": "equational_theories/Superposition.lean",
+    "importers": 28
+   },
+   {
+    "file": "equational_theories/Mathlib/Order/Greedy.lean",
+    "importers": 15
+   },
+   {
+    "file": "equational_theories/MagmaOp.lean",
+    "importers": 12
+   }
+  ],
+  "external_roots": {
+   "Mathlib": 1402,
+   "Lean": 14,
+   "Batteries": 7,
+   "Init": 4,
+   "Cli": 2,
+   "Aesop": 1,
+   "Qq": 1
+  }
+ },
+ "comparators": [],
+ "challenge_files": []
+}

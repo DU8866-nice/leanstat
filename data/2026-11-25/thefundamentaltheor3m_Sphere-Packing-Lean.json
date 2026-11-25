@@ -1,0 +1,223 @@
+{
+ "root": "/tmp/lean/thefundamentaltheor3m_Sphere-Packing-Lean",
+ "name": "thefundamentaltheor3m_Sphere-Packing-Lean",
+ "meta": {
+  "toolchain": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577"
+ },
+ "files": 75,
+ "lines": {
+  "lines": 15499,
+  "code": 10646,
+  "comment": 2243,
+  "blank": 2610
+ },
+ "declarations": {
+  "lemma": 519,
+  "def": 222,
+  "theorem": 428,
+  "abbrev": 4,
+  "instance": 35,
+  "structure": 2,
+  "example": 99,
+  "axiom": 2
+ },
+ "theorems": 947,
+ "biggest_files": [
+  {
+   "file": "SpherePacking/Basic/PeriodicPacking.lean",
+   "code": 1000
+  },
+  {
+   "file": "SpherePacking/ModularForms/JacobiTheta/Basic.lean",
+   "code": 679
+  },
+  {
+   "file": "SpherePacking/Basic/E8.lean",
+   "code": 588
+  },
+  {
+   "file": "SpherePacking/MagicFunction/PolyFourierCoeffBound.lean",
+   "code": 524
+  },
+  {
+   "file": "SpherePacking/CohnElkies/LPBound.lean",
+   "code": 511
+  },
+  {
+   "file": "SpherePacking/ModularForms/JacobiTheta/Derivative.lean",
+   "code": 408
+  },
+  {
+   "file": "SpherePacking/ModularForms/ResToImagAxis.lean",
+   "code": 375
+  },
+  {
+   "file": "SpherePacking/Basic/SpherePacking.lean",
+   "code": 352
+  },
+  {
+   "file": "SpherePacking/ModularForms/Derivative.lean",
+   "code": 340
+  },
+  {
+   "file": "SpherePacking/ModularForms/FG.lean",
+   "code": 326
+  }
+ ],
+ "longest_declaration": {
+  "lines": 183,
+  "name": "theorem calc_steps",
+  "file": "SpherePacking/CohnElkies/LPBound.lean",
+  "line": 336
+ },
+ "sorry": {
+  "total": 61,
+  "in_proof": null,
+  "in_challenge": 0,
+  "elsewhere": 61,
+  "where_proof": [],
+  "where_elsewhere": [
+   "SpherePacking/Basic/PeriodicPacking.lean:1221",
+   "SpherePacking/CohnElkies/LPBound.lean:355",
+   "SpherePacking/CohnElkies/LPBound.lean:385",
+   "SpherePacking/CohnElkies/LPBound.lean:389",
+   "SpherePacking/CohnElkies/LPBound.lean:464",
+   "SpherePacking/CohnElkies/Prereqs.lean:102",
+   "SpherePacking/CohnElkies/Prereqs.lean:109",
+   "SpherePacking/CohnElkies/Prereqs.lean:125",
+   "SpherePacking/ForMathlib/InvPowSummability.lean:269",
+   "SpherePacking/MagicFunction/PolyFourierCoeffBound.lean:632",
+   "SpherePacking/MagicFunction/PolyFourierCoeffBound.lean:634",
+   "SpherePacking/MagicFunction/a/Eigenfunction.lean:44",
+   "SpherePacking/MagicFunction/a/Eigenfunction.lean:46",
+   "SpherePacking/MagicFunction/a/Integrability/Integrability.lean:31",
+   "SpherePacking/MagicFunction/a/Integrability/Integrability.lean:36",
+   "SpherePacking/MagicFunction/a/Integrability/Integrability.lean:41",
+   "SpherePacking/MagicFunction/a/Integrability/Integrability.lean:46",
+   "SpherePacking/MagicFunction/a/Integrability/Integrability.lean:51",
+   "SpherePacking/MagicFunction/a/Integrability/Integrability.lean:56",
+   "SpherePacking/MagicFunction/a/IntegralEstimates/I2.lean:206",
+   "SpherePacking/MagicFunction/a/IntegralEstimates/I2.lean:214",
+   "SpherePacking/MagicFunction/a/IntegralEstimates/I4.lean:213",
+   "SpherePacking/MagicFunction/a/IntegralEstimates/I4.lean:220",
+   "SpherePacking/MagicFunction/a/IntegralEstimates/I6.lean:175",
+   "SpherePacking/MagicFunction/a/IntegralEstimates/I6.lean:183",
+   "SpherePacking/MagicFunction/a/Schwartz.lean:49",
+   "SpherePacking/MagicFunction/a/Schwartz.lean:52",
+   "SpherePacking/MagicFunction/a/Schwartz.lean:72",
+   "SpherePacking/MagicFunction/a/Schwartz.lean:75",
+   "SpherePacking/MagicFunction/a/Schwartz.lean:78",
+   "SpherePacking/MagicFunction/a/Schwartz.lean:91",
+   "SpherePacking/MagicFunction/a/Schwartz.lean:95",
+   "SpherePacking/MagicFunction/a/Schwartz.lean:99",
+   "SpherePacking/MagicFunction/a/Schwartz.lean:103",
+   "SpherePacking/MagicFunction/a/Schwartz.lean:107",
+   "SpherePacking/MagicFunction/a/Schwartz.lean:111",
+   "SpherePacking/MagicFunction/a/SpecialValues.lean:24",
+   "SpherePacking/MagicFunction/b/Eigenfunction.lean:26",
+   "SpherePacking/MagicFunction/b/Eigenfunction.lean:28",
+   "SpherePacking/MagicFunction/b/Schwartz.lean:49",
+   "SpherePacking/MagicFunction/b/Schwartz.lean:52",
+   "SpherePacking/MagicFunction/b/Schwartz.lean:55",
+   "SpherePacking/MagicFunction/b/Schwartz.lean:58",
+   "SpherePacking/MagicFunction/b/Schwartz.lean:61",
+   "SpherePacking/MagicFunction/b/Schwartz.lean:64",
+   "SpherePacking/MagicFunction/b/Schwartz.lean:77",
+   "SpherePacking/MagicFunction/b/Schwartz.lean:81",
+   "SpherePacking/MagicFunction/b/Schwartz.lean:85",
+   "SpherePacking/MagicFunction/b/Schwartz.lean:89",
+   "SpherePacking/MagicFunction/b/Schwartz.lean:93"
+  ]
+ },
+ "solution_closure": null,
+ "axioms": [
+  "opaqueF (SpherePacking/Tactic/Test/TendstoCont.lean)",
+  "opaqueF_tendsto (SpherePacking/Tactic/Test/TendstoCont.lean)"
+ ],
+ "flags": {
+  "native_decide": {
+   "count": 0,
+   "in_proof": null,
+   "files": []
+  },
+  "implemented_by": {
+   "count": 0,
+   "in_proof": null,
+   "files": []
+  },
+  "extern": {
+   "count": 0,
+   "in_proof": null,
+   "files": []
+  },
+  "unsafe": {
+   "count": 0,
+   "in_proof": null,
+   "files": []
+  },
+  "skipKernelTC": {
+   "count": 0,
+   "in_proof": null,
+   "files": []
+  }
+ },
+ "heartbeats": {
+  "set_to_zero": 0,
+  "largest": 0
+ },
+ "metaprogramming": 4,
+ "imports": {
+  "internal_edges": 212,
+  "longest_chain": 16,
+  "most_imported": [
+   {
+    "file": "SpherePacking/MagicFunction/a/Basic.lean",
+    "importers": 11
+   },
+   {
+    "file": "SpherePacking/MagicFunction/PolyFourierCoeffBound.lean",
+    "importers": 9
+   },
+   {
+    "file": "SpherePacking/ModularForms/E2.lean",
+    "importers": 9
+   },
+   {
+    "file": "SpherePacking/ModularForms/Delta.lean",
+    "importers": 8
+   },
+   {
+    "file": "SpherePacking/ForMathlib/MDifferentiableFunProp.lean",
+    "importers": 6
+   },
+   {
+    "file": "SpherePacking/ForMathlib/AtImInfty.lean",
+    "importers": 5
+   },
+   {
+    "file": "SpherePacking/MagicFunction/a/Phi.lean",
+    "importers": 5
+   },
+   {
+    "file": "SpherePacking/ModularForms/Eisenstein.lean",
+    "importers": 5
+   },
+   {
+    "file": "SpherePacking/ModularForms/JacobiTheta/Defs.lean",
+    "importers": 5
+   },
+   {
+    "file": "SpherePacking/ModularForms/ResToImagAxis.lean",
+    "importers": 5
+   }
+  ],
+  "external_roots": {
+   "Mathlib": 105,
+   "Batteries": 1,
+   "Lean": 1
+  }
+ },
+ "comparators": [],
+ "challenge_files": []
+}

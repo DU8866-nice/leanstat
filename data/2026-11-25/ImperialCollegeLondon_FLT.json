@@ -1,0 +1,228 @@
+{
+ "root": "/tmp/lean/ImperialCollegeLondon_FLT",
+ "name": "ImperialCollegeLondon_FLT",
+ "meta": {
+  "toolchain": "leanprover/lean4:v4.35.0",
+  "mathlib": "56a005855e"
+ },
+ "files": 271,
+ "lines": {
+  "lines": 58809,
+  "code": 41578,
+  "comment": 8823,
+  "blank": 8408
+ },
+ "declarations": {
+  "axiom": 3,
+  "abbrev": 101,
+  "instance": 691,
+  "lemma": 1465,
+  "def": 649,
+  "theorem": 776,
+  "structure": 18,
+  "class": 30,
+  "example": 19
+ },
+ "theorems": 2241,
+ "biggest_files": [
+  {
+   "file": "FLT/Slop/PGL2/FiniteSubgroups/FieldReconstruction.lean",
+   "code": 1584
+  },
+  {
+   "file": "FLT/Slop/PGL2/FiniteSubgroups/PGLBasic.lean",
+   "code": 1462
+  },
+  {
+   "file": "FLT/Slop/PGL2/FiniteSubgroups/TameClassification.lean",
+   "code": 1375
+  },
+  {
+   "file": "FLT/Slop/PGL2/FiniteSubgroups/CyclicPartition.lean",
+   "code": 1231
+  },
+  {
+   "file": "FLT/KnownIn1980s/EllipticCurves/TateCurveConstruction.lean",
+   "code": 1026
+  },
+  {
+   "file": "FLT/AutomorphicForm/QuaternionAlgebra/Basic.lean",
+   "code": 936
+  },
+  {
+   "file": "FLT/AutomorphicForm/QuaternionAlgebra/HeckeOperators/Concrete.lean",
+   "code": 877
+  },
+  {
+   "file": "FLT/Slop/PGL2/FiniteSubgroups/RecognitionA5.lean",
+   "code": 832
+  },
+  {
+   "file": "FLT/DivisionAlgebra/Finiteness.lean",
+   "code": 805
+  },
+  {
+   "file": "FLT/AutomorphicForm/QuaternionAlgebra/InnerProduct.lean",
+   "code": 777
+  }
+ ],
+ "longest_declaration": {
+  "lines": 256,
+  "name": "theorem orderOf_coprime_of_discrim_ne_zero",
+  "file": "FLT/Slop/PGL2/FiniteSubgroups/PGLBasic.lean",
+  "line": 634
+ },
+ "sorry": {
+  "total": 60,
+  "in_proof": null,
+  "in_challenge": 0,
+  "elsewhere": 60,
+  "where_proof": [],
+  "where_elsewhere": [
+   "FLT/Data/HurwitzRatHat.lean:74",
+   "FLT/Data/HurwitzRatHat.lean:90",
+   "FLT/Data/HurwitzRatHat.lean:94",
+   "FLT/Data/HurwitzRatHat.lean:96",
+   "FLT/Deformations/LiftFunctor.lean:117",
+   "FLT/Deformations/Representable.lean:38",
+   "FLT/Deformations/Representable.lean:106",
+   "FLT/EllipticCurve/Torsion.lean:46",
+   "FLT/EllipticCurve/Torsion.lean:52",
+   "FLT/EllipticCurve/Torsion.lean:57",
+   "FLT/EllipticCurve/Torsion.lean:75",
+   "FLT/EllipticCurve/Torsion.lean:109",
+   "FLT/EllipticCurve/Torsion.lean:110",
+   "FLT/EllipticCurve/Torsion.lean:111",
+   "FLT/EllipticCurve/Torsion.lean:112",
+   "FLT/EllipticCurve/Torsion.lean:124",
+   "FLT/GaloisRepresentation/Automorphic.lean:100",
+   "FLT/GaloisRepresentation/Automorphic.lean:184",
+   "FLT/GaloisRepresentation/HardlyRamified/Family.lean:68",
+   "FLT/GaloisRepresentation/HardlyRamified/Frey.lean:39",
+   "FLT/GaloisRepresentation/HardlyRamified/Frey.lean:41",
+   "FLT/GaloisRepresentation/HardlyRamified/Frey.lean:46",
+   "FLT/GaloisRepresentation/HardlyRamified/Lift.lean:48",
+   "FLT/GaloisRepresentation/HardlyRamified/ModThree.lean:34",
+   "FLT/GaloisRepresentation/HardlyRamified/Threeadic.lean:39",
+   "FLT/GlobalLanglandsConjectures/GLnDefs.lean:91",
+   "FLT/GlobalLanglandsConjectures/GLnDefs.lean:189",
+   "FLT/GlobalLanglandsConjectures/GLnDefs.lean:206",
+   "FLT/GlobalLanglandsConjectures/GLnDefs.lean:221",
+   "FLT/GlobalLanglandsConjectures/GLzero.lean:52",
+   "FLT/GlobalLanglandsConjectures/GLzero.lean:68",
+   "FLT/GlobalLanglandsConjectures/GLzero.lean:86",
+   "FLT/GlobalLanglandsConjectures/GLzero.lean:123",
+   "FLT/GlobalLanglandsConjectures/GLzero.lean:124",
+   "FLT/GlobalLanglandsConjectures/GLzero.lean:125",
+   "FLT/GlobalLanglandsConjectures/GLzero.lean:127",
+   "FLT/GlobalLanglandsConjectures/GLzero.lean:134",
+   "FLT/GlobalLanglandsConjectures/GLzero.lean:135",
+   "FLT/GlobalLanglandsConjectures/GLzero.lean:136",
+   "FLT/KnownIn1980s/EllipticCurves/Flat.lean:160",
+   "FLT/KnownIn1980s/EllipticCurves/Flat.lean:229",
+   "FLT/KnownIn1980s/EllipticCurves/Flat.lean:241",
+   "FLT/KnownIn1980s/EllipticCurves/GoodReduction.lean:63",
+   "FLT/KnownIn1980s/EllipticCurves/TateCurve.lean:123",
+   "FLT/KnownIn1980s/EllipticCurves/TateCurve.lean:240",
+   "FLT/KnownIn1980s/EllipticCurves/TateCurve.lean:250",
+   "FLT/KnownIn1980s/EllipticCurves/TateCurve.lean:411",
+   "FLT/KnownIn1980s/EllipticCurves/TateCurve.lean:424",
+   "FLT/KnownIn1980s/EllipticCurves/TateCurve.lean:464",
+   "FLT/KnownIn1980s/EllipticCurves/TateCurve.lean:478"
+  ]
+ },
+ "solution_closure": null,
+ "axioms": [
+  "knownin1980s (FLT/Assumptions/KnownIn1980s.lean)",
+  "Mazur_statement (FLT/Assumptions/Mazur.lean)",
+  "Odlyzko_statement (FLT/Assumptions/Odlyzko.lean)"
+ ],
+ "flags": {
+  "native_decide": {
+   "count": 0,
+   "in_proof": null,
+   "files": []
+  },
+  "implemented_by": {
+   "count": 0,
+   "in_proof": null,
+   "files": []
+  },
+  "extern": {
+   "count": 0,
+   "in_proof": null,
+   "files": []
+  },
+  "unsafe": {
+   "count": 5,
+   "in_proof": null,
+   "files": [
+    "FLT/AutomorphicForm/QuaternionAlgebra/InnerProduct.lean"
+   ]
+  },
+  "skipKernelTC": {
+   "count": 0,
+   "in_proof": null,
+   "files": []
+  }
+ },
+ "heartbeats": {
+  "set_to_zero": 0,
+  "largest": 0
+ },
+ "metaprogramming": 1,
+ "imports": {
+  "internal_edges": 745,
+  "longest_chain": 20,
+  "most_imported": [
+   {
+    "file": "FLT/Mathlib/RingTheory/DedekindDomain/AdicValuation.lean",
+    "importers": 15
+   },
+   {
+    "file": "FLT/Mathlib/Topology/Algebra/Module/ModuleTopology.lean",
+    "importers": 14
+   },
+   {
+    "file": "FLT/Mathlib/NumberTheory/NumberField/InfiniteAdeleRing.lean",
+    "importers": 10
+   },
+   {
+    "file": "FLT/Mathlib/RingTheory/DedekindDomain/FiniteAdeleRing.lean",
+    "importers": 10
+   },
+   {
+    "file": "FLT/Mathlib/AlgebraicGeometry/EllipticCurve/Affine/Point.lean",
+    "importers": 8
+   },
+   {
+    "file": "FLT/Mathlib/NumberTheory/NumberField/FiniteAdeleRing.lean",
+    "importers": 8
+   },
+   {
+    "file": "FLT/Mathlib/Topology/Algebra/RestrictedProduct/TopologicalSpace.lean",
+    "importers": 8
+   },
+   {
+    "file": "FLT/NumberField/Completion/Finite.lean",
+    "importers": 8
+   },
+   {
+    "file": "FLT/Slop/PGL2/FiniteSubgroups/PGLBasic.lean",
+    "importers": 8
+   },
+   {
+    "file": "FLT/HaarMeasure/HaarChar/AddEquiv.lean",
+    "importers": 7
+   }
+  ],
+  "external_roots": {
+   "Mathlib": 684,
+   "VersoBlueprint": 7,
+   "VersoManual": 5,
+   "Verso": 4
+  }
+ },
+ "comparators": [],
+ "challenge_files": []
+}

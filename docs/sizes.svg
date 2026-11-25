@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 476" width="900" height="476" role="img" aria-labelledby="t d">
+<title id="t">Lines of Lean code in famous formalizations</title>
+<desc id="d">The Lean proof of the Riemann Hypothesis has 13.7 million lines of code, 8.8 times all of Mathlib (1.55 million). Data: data/2026-11-25/projects.tsv</desc>
+<style>.bg{fill:#fcfcfb}.t1{fill:#0b0b0b}.t2{fill:#52514e}.t3{fill:#7a7974}.grid{stroke:#e8e7e2}.rh{fill:#2a78d6}.ml{fill:#52514e}.ot{fill:#b9b7ae}.ref{stroke:#52514e}text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif}@media (prefers-color-scheme: dark){.bg{fill:#1a1a19}.t1{fill:#f0efec}.t2{fill:#c3c2b7}.t3{fill:#94938b}.grid{stroke:#2e2e2c}.rh{fill:#3987e5}.ml{fill:#c3c2b7}.ot{fill:#5d5c57}.ref{stroke:#c3c2b7}}</style>
+<rect class="bg" width="900" height="476" rx="8"/>
+<text class="t1" x="24" y="36" font-size="18" font-weight="600">The Lean proof of the Riemann Hypothesis is 8.8× the size of all of Mathlib</text>
+<text class="t2" x="24" y="60" font-size="13">Lines of Lean code, comments and blank lines excluded. Measured with leanstat on 25 Nov 2026; commits in data/2026-11-25/projects.tsv.</text>
+<line class="grid" x1="300.0" x2="300.0" y1="84" y2="422"/>
+<text class="t3" x="300.0" y="438" font-size="11" text-anchor="middle">0M</text>
+<line class="grid" x1="367.0" x2="367.0" y1="84" y2="422"/>
+<text class="t3" x="367.0" y="438" font-size="11" text-anchor="middle">2M</text>
+<line class="grid" x1="433.9" x2="433.9" y1="84" y2="422"/>
+<text class="t3" x="433.9" y="438" font-size="11" text-anchor="middle">4M</text>
+<line class="grid" x1="500.9" x2="500.9" y1="84" y2="422"/>
+<text class="t3" x="500.9" y="438" font-size="11" text-anchor="middle">6M</text>
+<line class="grid" x1="567.8" x2="567.8" y1="84" y2="422"/>
+<text class="t3" x="567.8" y="438" font-size="11" text-anchor="middle">8M</text>
+<line class="grid" x1="634.8" x2="634.8" y1="84" y2="422"/>
+<text class="t3" x="634.8" y="438" font-size="11" text-anchor="middle">10M</text>
+<line class="grid" x1="701.8" x2="701.8" y1="84" y2="422"/>
+<text class="t3" x="701.8" y="438" font-size="11" text-anchor="middle">12M</text>
+<line class="grid" x1="768.7" x2="768.7" y1="84" y2="422"/>
+<text class="t3" x="768.7" y="438" font-size="11" text-anchor="middle">14M</text>
+<text class="t1" x="290" y="107" font-size="13" text-anchor="end">Riemann Hypothesis, as released 20 Nov</text>
+<path class="rh" d="M300,95 H816.0 Q820.0,95 820.0,99.0 V107.0 Q820.0,111 816.0,111 H300 Z"><title>Riemann Hypothesis, as released 20 Nov: 15,531,759 code lines</title></path>
+<text class="t2" x="826.0" y="107" font-size="12">15.5M</text>
+<text class="t1" x="290" y="137" font-size="13" text-anchor="end">Riemann Hypothesis, community cleanup</text>
+<path class="rh" d="M300,125 H755.0 Q759.0,125 759.0,129.0 V137.0 Q759.0,141 755.0,141 H300 Z"><title>Riemann Hypothesis, community cleanup: 13,710,596 code lines</title></path>
+<text class="t2" x="765.0" y="137" font-size="12">13.7M</text>
+<text class="t1" x="290" y="167" font-size="13" text-anchor="end">pequalnp.com P vs NP attempt (not a proof)</text>
+<path class="ot" d="M300,155 H415.8 Q419.8,155 419.8,159.0 V167.0 Q419.8,171 415.8,171 H300 Z"><title>pequalnp.com P vs NP attempt (not a proof): 3,578,380 code lines</title></path>
+<text class="t2" x="425.8" y="167" font-size="12">3.6M</text>
+<text class="t1" x="290" y="197" font-size="13" text-anchor="end">Mathlib, the entire library</text>
+<path class="ml" d="M300,185 H348.0 Q352.0,185 352.0,189.0 V197.0 Q352.0,201 348.0,201 H300 Z"><title>Mathlib, the entire library: 1,551,924 code lines</title></path>
+<text class="t2" x="358.0" y="197" font-size="12">1.6M</text>
+<text class="t1" x="290" y="227" font-size="13" text-anchor="end">Navier–Stokes finite-time blow-up</text>
+<path class="ot" d="M300,215 H314.6 Q318.6,215 318.6,219.0 V227.0 Q318.6,231 314.6,231 H300 Z"><title>Navier–Stokes finite-time blow-up: 554,172 code lines</title></path>
+<text class="t2" x="324.6" y="227" font-size="12">554k</text>
+<text class="t1" x="290" y="257" font-size="13" text-anchor="end">Masullo&#x27;s GRH paper (in progress)</text>
+<path class="ot" d="M300,245 H312.0 Q316.0,245 316.0,249.0 V257.0 Q316.0,261 312.0,261 H300 Z"><title>Masullo&#x27;s GRH paper (in progress): 478,075 code lines</title></path>
+<text class="t2" x="322.0" y="257" font-size="12">478k</text>
+<text class="t1" x="290" y="287" font-size="13" text-anchor="end">Equational Theories Project</text>
+<path class="ot" d="M300,275 H302.4 Q304.8,275 304.8,277.4 V288.6 Q304.8,291 302.4,291 H300 Z"><title>Equational Theories Project: 143,114 code lines</title></path>
+<text class="t2" x="310.8" y="287" font-size="12">143k</text>
+<text class="t1" x="290" y="317" font-size="13" text-anchor="end">Carleson&#x27;s theorem</text>
+<path class="ot" d="M300,305 H300.8 Q301.5,305 301.5,305.8 V320.2 Q301.5,321 300.8,321 H300 Z"><title>Carleson&#x27;s theorem: 41,652 code lines</title></path>
+<text class="t2" x="307.5" y="317" font-size="12">42k</text>
+<text class="t1" x="290" y="347" font-size="13" text-anchor="end">Fermat&#x27;s Last Theorem (in progress)</text>
+<path class="ot" d="M300,335 H300.8 Q301.5,335 301.5,335.8 V350.2 Q301.5,351 300.8,351 H300 Z"><title>Fermat&#x27;s Last Theorem (in progress): 41,578 code lines</title></path>
+<text class="t2" x="307.5" y="347" font-size="12">42k</text>
+<text class="t1" x="290" y="377" font-size="13" text-anchor="end">Polynomial Freiman–Ruzsa</text>
+<path class="ot" d="M300,365 H300.8 Q301.5,365 301.5,365.8 V380.2 Q301.5,381 300.8,381 H300 Z"><title>Polynomial Freiman–Ruzsa: 18,250 code lines</title></path>
+<text class="t2" x="307.5" y="377" font-size="12">18k</text>
+<text class="t1" x="290" y="407" font-size="13" text-anchor="end">Sphere packing in dimension 8</text>
+<path class="ot" d="M300,395 H300.8 Q301.5,395 301.5,395.8 V410.2 Q301.5,411 300.8,411 H300 Z"><title>Sphere packing in dimension 8: 10,646 code lines</title></path>
+<text class="t2" x="307.5" y="407" font-size="12">11k</text>
+<line class="ref" x1="352.0" x2="352.0" y1="84" y2="422" stroke-dasharray="3 3" stroke-width="1"/>
+<text class="t2" x="356.0" y="80" font-size="11">Mathlib</text>
+<text class="t3" x="24" y="462" font-size="11.5">Size is not a measure of difficulty or correctness. The P vs NP repository says itself that it does not settle P vs NP.</text>
+</svg>

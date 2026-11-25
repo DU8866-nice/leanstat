@@ -1,0 +1,287 @@
+{
+ "root": "/tmp/lean/tristanbuckmaster_navier-stokes",
+ "name": "tristanbuckmaster_navier-stokes",
+ "meta": {
+  "mathlib": "0df444a360"
+ },
+ "files": 2271,
+ "lines": {
+  "lines": 616060,
+  "code": 554172,
+  "comment": 0,
+  "blank": 61888
+ },
+ "declarations": {
+  "structure": 845,
+  "def": 7506,
+  "theorem": 28248,
+  "abbrev": 98,
+  "instance": 58,
+  "lemma": 1809,
+  "inductive": 12
+ },
+ "theorems": 30057,
+ "biggest_files": [
+  {
+   "file": "lean/CellLayerChallenge.lean",
+   "code": 5354
+  },
+  {
+   "file": "lean/Breakdown/CertCell/StatementDefs.lean",
+   "code": 4702
+  },
+  {
+   "file": "lean/FractionalCellSystemChallenge.lean",
+   "code": 3393
+  },
+  {
+   "file": "lean/Breakdown/FracCell/StatementDefs.lean",
+   "code": 3386
+  },
+  {
+   "file": "lean/Breakdown/FracCell/GivenProfilePowerFieldJumpsPieces.lean",
+   "code": 2304
+  },
+  {
+   "file": "lean/Breakdown/Cert/CoerciveSmoothPieceMuTransport.lean",
+   "code": 2303
+  },
+  {
+   "file": "lean/Breakdown/FracCell/GivenAuxPinSmoothLocalLeaves.lean",
+   "code": 2223
+  },
+  {
+   "file": "lean/Breakdown/FracCell/LayoutRowValueVolume.lean",
+   "code": 1957
+  },
+  {
+   "file": "lean/Breakdown/FracCell/GivenAuxActuatorOpen.lean",
+   "code": 1914
+  },
+  {
+   "file": "lean/Breakdown/FracCell/LayoutRowViscousSides.lean",
+   "code": 1850
+  }
+ ],
+ "longest_declaration": {
+  "lines": 456,
+  "name": "theorem modelStage_of_point",
+  "file": "lean/Breakdown/CertCell/AssemblyPotentialModel.lean",
+  "line": 257
+ },
+ "sorry": {
+  "total": 24,
+  "in_proof": 0,
+  "in_challenge": 13,
+  "elsewhere": 11,
+  "where_proof": [],
+  "where_elsewhere": [
+   "lean/CellLayerChallenge.lean:7052",
+   "lean/CellLayerChallenge.lean:7073",
+   "lean/CellLayerChallenge.lean:7080",
+   "lean/CertificateChallenge.lean:220",
+   "lean/CoerciveChallenge.lean:530",
+   "lean/CoerciveChallenge.lean:582",
+   "lean/CoerciveChallenge.lean:601",
+   "lean/CoerciveChallenge.lean:959",
+   "lean/ExtendedCertificateChallenge.lean:259",
+   "lean/ExtendedCertificateChallenge.lean:263",
+   "lean/ExtendedCertificateChallenge.lean:267"
+  ]
+ },
+ "solution_closure": {
+  "files": 2257,
+  "code": 542646,
+  "unused_files": 8,
+  "unused_code": 7107
+ },
+ "axioms": [],
+ "flags": {
+  "native_decide": {
+   "count": 0,
+   "in_proof": 0,
+   "files": []
+  },
+  "implemented_by": {
+   "count": 0,
+   "in_proof": 0,
+   "files": []
+  },
+  "extern": {
+   "count": 0,
+   "in_proof": 0,
+   "files": []
+  },
+  "unsafe": {
+   "count": 0,
+   "in_proof": 0,
+   "files": []
+  },
+  "skipKernelTC": {
+   "count": 0,
+   "in_proof": 0,
+   "files": []
+  }
+ },
+ "heartbeats": {
+  "set_to_zero": 0,
+  "largest": 8000000
+ },
+ "metaprogramming": 0,
+ "imports": {
+  "internal_edges": 6570,
+  "longest_chain": 56,
+  "most_imported": [
+   {
+    "file": "lean/Breakdown/FreqTr/Realization.lean",
+    "importers": 59
+   },
+   {
+    "file": "lean/Breakdown/Cert/CoerciveNodes.lean",
+    "importers": 43
+   },
+   {
+    "file": "lean/Breakdown/FreqTr/Statements.lean",
+    "importers": 43
+   },
+   {
+    "file": "lean/Breakdown/Cert/Nodes.lean",
+    "importers": 42
+   },
+   {
+    "file": "lean/Breakdown/CertCell/BridgeStatements.lean",
+    "importers": 41
+   },
+   {
+    "file": "lean/Breakdown/CertCell/StatementDefs.lean",
+    "importers": 37
+   },
+   {
+    "file": "lean/Breakdown/CertCell/AssemblyStatements.lean",
+    "importers": 37
+   },
+   {
+    "file": "lean/Breakdown/Cert/CoerciveRotation.lean",
+    "importers": 35
+   },
+   {
+    "file": "lean/Breakdown/CertCell/ShapeStatements.lean",
+    "importers": 32
+   },
+   {
+    "file": "lean/Breakdown/Cert/CoercivePerturbationFactsProof.lean",
+    "importers": 32
+   }
+  ],
+  "external_roots": {
+   "Mathlib": 97
+  }
+ },
+ "comparators": [
+  {
+   "file": "lean/comparator-cell-layer.json",
+   "challenge": "CellLayerTheorems",
+   "solution": "Solution",
+   "theorems": [
+    "Breakdown.CellLayerSystem.breakdownOnSpace_of_cell_system_condition",
+    "Breakdown.CellLayerSystem.breakdownOnTorus_of_cell_system_condition",
+    "Breakdown.CellLayerSystem.breakdownOnSpaceAndTorus_of_cell_system_condition"
+   ],
+   "axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+   ],
+   "challenge_file": "lean/CellLayerTheorems.lean"
+  },
+  {
+   "file": "lean/comparator-certificate.json",
+   "challenge": "ExtendedCoerciveChallenge",
+   "solution": "Solution",
+   "theorems": [
+    "Breakdown.certificate_orbit",
+    "Breakdown.ModeWeights.multiplier_density",
+    "Breakdown.ModeWeights.mode_azimuthal_gain",
+    "Breakdown.ModeWeights.stretch_mean_bound",
+    "Breakdown.ModeWeights.multiplierInequality_of_density",
+    "Breakdown.PieceWeights.piece_multiplier_density",
+    "Breakdown.PieceWeights.multiplierInequality_of_pieceDensity",
+    "Breakdown.extended_certificate_orbit",
+    "Breakdown.CoerciveWeak.extendedCoerciveClause_of_pieceData"
+   ],
+   "axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+   ],
+   "challenge_file": "lean/ExtendedCoerciveChallenge.lean"
+  },
+  {
+   "file": "lean/comparator-fractional-cell-system.json",
+   "challenge": "FractionalCellSystemChallenge",
+   "solution": "Solution",
+   "theorems": [
+    "Breakdown.CellCert.CellSystem.fractional_breakdown_of_cell_system"
+   ],
+   "axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+   ],
+   "challenge_file": "lean/FractionalCellSystemChallenge.lean"
+  },
+  {
+   "file": "lean/comparator-fractional-certificate.json",
+   "challenge": "FractionalCertificateChallenge",
+   "solution": "Solution",
+   "theorems": [
+    "Breakdown.SteadyCert.fracCertificate_profile"
+   ],
+   "axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+   ],
+   "challenge_file": "lean/FractionalCertificateChallenge.lean"
+  },
+  {
+   "file": "lean/comparator-fractional.json",
+   "challenge": "FractionalChallenge",
+   "solution": "Solution",
+   "theorems": [
+    "Breakdown.fractional_breakdown_on_space",
+    "Breakdown.fractional_breakdown_on_torus"
+   ],
+   "axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+   ],
+   "challenge_file": "lean/FractionalChallenge.lean"
+  },
+  {
+   "file": "lean/comparator.json",
+   "challenge": "Challenge",
+   "solution": "Solution",
+   "theorems": [
+    "Breakdown.breakdown_on_space",
+    "Breakdown.breakdown_on_torus",
+    "Breakdown.breakdown_on_space_of_weak"
+   ],
+   "axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+   ],
+   "challenge_file": "lean/Challenge.lean"
+  }
+ ],
+ "challenge_files": [
+  "lean/CellLayerTheorems.lean",
+  "lean/Challenge.lean",
+  "lean/ExtendedCoerciveChallenge.lean",
+  "lean/FractionalCellSystemChallenge.lean",
+  "lean/FractionalCertificateChallenge.lean",
+  "lean/FractionalChallenge.lean"
+ ]
+}

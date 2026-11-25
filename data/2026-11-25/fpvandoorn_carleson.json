@@ -1,0 +1,202 @@
+{
+ "root": "/tmp/lean/fpvandoorn_carleson",
+ "name": "fpvandoorn_carleson",
+ "meta": {
+  "toolchain": "leanprover/lean4:v4.36.0-rc1",
+  "mathlib": "d88814353f"
+ },
+ "files": 128,
+ "lines": {
+  "lines": 50197,
+  "code": 41652,
+  "comment": 3585,
+  "blank": 4960
+ },
+ "declarations": {
+  "lemma": 2231,
+  "def": 378,
+  "irreducible_def": 47,
+  "theorem": 377,
+  "instance": 83,
+  "structure": 13,
+  "class": 23,
+  "abbrev": 11,
+  "example": 2
+ },
+ "theorems": 2608,
+ "biggest_files": [
+  {
+   "file": "Carleson/ForestOperator/LargeSeparation.lean",
+   "code": 1921
+  },
+  {
+   "file": "Carleson/TileExistence.lean",
+   "code": 1879
+  },
+  {
+   "file": "Carleson/TwoSidedCarleson/WeakCalderonZygmund.lean",
+   "code": 1542
+  },
+  {
+   "file": "Carleson/ToMathlib/RealInterpolation/Main.lean",
+   "code": 1274
+  },
+  {
+   "file": "Carleson/Discrete/ForestComplement.lean",
+   "code": 1053
+  },
+  {
+   "file": "Carleson/ForestOperator/Forests.lean",
+   "code": 1016
+  },
+  {
+   "file": "Carleson/ForestOperator/PointwiseEstimate.lean",
+   "code": 1012
+  },
+  {
+   "file": "Carleson/Antichain/AntichainTileCount.lean",
+   "code": 1008
+  },
+  {
+   "file": "Carleson/TwoSidedCarleson/NontangentialOperator.lean",
+   "code": 999
+  },
+  {
+   "file": "Carleson/ToMathlib/Rearrangement.lean",
+   "code": 969
+  }
+ ],
+ "longest_declaration": {
+  "lines": 239,
+  "name": "theorem exists_measurable_sets_measure_eq",
+  "file": "Carleson/ToMathlib/MeasureTheory/Measure/NoAtoms/Basics.lean",
+  "line": 383
+ },
+ "sorry": {
+  "total": 6,
+  "in_proof": 0,
+  "in_challenge": 3,
+  "elsewhere": 3,
+  "where_proof": [],
+  "where_elsewhere": [
+   "Carleson/ToMathlib/RealInterpolation/LorentzInterpolation.lean:23",
+   "Carleson/ToMathlib/RealInterpolation/LorentzInterpolation.lean:28",
+   "Carleson/ToMathlib/RealInterpolation/LorentzInterpolation.lean:44"
+  ]
+ },
+ "solution_closure": {
+  "files": 106,
+  "code": 39062,
+  "unused_files": 21,
+  "unused_code": 2428
+ },
+ "axioms": [],
+ "flags": {
+  "native_decide": {
+   "count": 0,
+   "in_proof": 0,
+   "files": []
+  },
+  "implemented_by": {
+   "count": 0,
+   "in_proof": 0,
+   "files": []
+  },
+  "extern": {
+   "count": 0,
+   "in_proof": 0,
+   "files": []
+  },
+  "unsafe": {
+   "count": 5,
+   "in_proof": 5,
+   "files": [
+    "Carleson/ToMathlib/BoundedFiniteSupport.lean",
+    "Carleson/ToMathlib/RealInterpolation/InterpolatedExponents.lean",
+    "Carleson/ToMathlib/RealInterpolation/Misc.lean",
+    "Carleson/ToMathlib/WNorm.lean"
+   ]
+  },
+  "skipKernelTC": {
+   "count": 0,
+   "in_proof": 0,
+   "files": []
+  }
+ },
+ "heartbeats": {
+  "set_to_zero": 0,
+  "largest": 0
+ },
+ "metaprogramming": 3,
+ "imports": {
+  "internal_edges": 332,
+  "longest_chain": 30,
+  "most_imported": [
+   {
+    "file": "Carleson/TileStructure.lean",
+    "importers": 7
+   },
+   {
+    "file": "Carleson/ToMathlib/MeasureTheory/Function/LpSeminorm/Basic.lean",
+    "importers": 7
+   },
+   {
+    "file": "Carleson/Calculations.lean",
+    "importers": 6
+   },
+   {
+    "file": "Carleson/Defs.lean",
+    "importers": 6
+   },
+   {
+    "file": "Carleson/ToMathlib/MeasureTheory/Measure/NNReal.lean",
+    "importers": 6
+   },
+   {
+    "file": "Carleson/ToMathlib/MeasureTheory/Measure/NoAtoms/Regular.lean",
+    "importers": 6
+   },
+   {
+    "file": "Carleson/ToMathlib/Misc.lean",
+    "importers": 6
+   },
+   {
+    "file": "Carleson/Classical/Basic.lean",
+    "importers": 5
+   },
+   {
+    "file": "Carleson/ToMathlib/Distribution.lean",
+    "importers": 5
+   },
+   {
+    "file": "Carleson/ToMathlib/HardyLittlewood.lean",
+    "importers": 5
+   }
+  ],
+  "external_roots": {
+   "Mathlib": 79,
+   "Lake": 1
+  }
+ },
+ "comparators": [
+  {
+   "file": "comparator_palomar.json",
+   "challenge": "Challenge",
+   "solution": "Solution",
+   "theorems": [
+    "classical_carleson_theorem",
+    "metric_space_carleson",
+    "linearized_metric_space_carleson"
+   ],
+   "axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+   ],
+   "challenge_file": "Challenge.lean"
+  }
+ ],
+ "challenge_files": [
+  "Challenge.lean"
+ ]
+}

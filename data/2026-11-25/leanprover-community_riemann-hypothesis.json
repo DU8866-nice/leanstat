@@ -1,0 +1,205 @@
+{
+ "root": "/tmp/lean/leanprover-community_riemann-hypothesis",
+ "name": "leanprover-community_riemann-hypothesis",
+ "meta": {
+  "toolchain": "leanprover/lean4:v4.37.0-rc1",
+  "mathlib": "31ce06eaad"
+ },
+ "files": 59773,
+ "lines": {
+  "lines": 15657390,
+  "code": 13710596,
+  "comment": 244432,
+  "blank": 1702362
+ },
+ "declarations": {
+  "def": 140453,
+  "lemma": 26670,
+  "theorem": 566128,
+  "instance": 5976,
+  "structure": 6278,
+  "abbrev": 10019,
+  "inductive": 83,
+  "class": 35,
+  "example": 2
+ },
+ "theorems": 592798,
+ "biggest_files": [
+  {
+   "file": "src/Formalism/HermitianCurvature/HermitianCurvatureProofs/IsAdmissibleSplittingCharPairMulTwist.lean",
+   "code": 14157
+  },
+  {
+   "file": "src/Formalism/SharpRestriction/CuspSpanNormBounds/LatticeGluingRadicals.lean",
+   "code": 8027
+  },
+  {
+   "file": "src/Formalism/HermitianCurvature/HermitianCurvatureProofs/UnipotentCoordinatesMeasurePreserving.lean",
+   "code": 5827
+  },
+  {
+   "file": "src/Formalism/SharpRestriction/GrowthBounds/WittFrameLocaliserOrders.lean",
+   "code": 5016
+  },
+  {
+   "file": "src/Formalism/HermitianCurvature/HermitianCurvatureProofs/CoordinateCommuteRaisingConstant.lean",
+   "code": 4886
+  },
+  {
+   "file": "src/Formalism/SharpRestriction/LevelLetterCocycles/FrobeniusPowUniformizerFactorisation.lean",
+   "code": 4094
+  },
+  {
+   "file": "src/Formalism/SharpRestriction/GrowthBounds/LatticeSystems.lean",
+   "code": 4039
+  },
+  {
+   "file": "src/Formalism/SharpRestriction/LevelLetterCocycles/BaseChangePreservesUnitaryOf.lean",
+   "code": 3734
+  },
+  {
+   "file": "src/Formalism/LocalToGlobal/KernelLattices/KernelLocalFactors/InterlaceDifferenceShiftInvariant.lean",
+   "code": 3546
+  },
+  {
+   "file": "src/Formalism/SharpRestriction/GrowthBounds/CountingStatementReduction.lean",
+   "code": 3463
+  }
+ ],
+ "longest_declaration": {
+  "lines": 483,
+  "name": "theorem ring_objects_of_matrix_data",
+  "file": "src/Formalism/WachLatticeTwists/RamifiedBlockRings/RamifiedBlockProofs/RingObjectsOfMatrixData.lean",
+  "line": 262
+ },
+ "sorry": {
+  "total": 7,
+  "in_proof": 0,
+  "in_challenge": 5,
+  "elsewhere": 2,
+  "where_proof": [],
+  "where_elsewhere": [
+   "comparator/FormalConjecturesChallenge.lean:84",
+   "comparator/FormalConjecturesChallenge.lean:108"
+  ]
+ },
+ "solution_closure": {
+  "files": 59723,
+  "code": 13704885,
+  "unused_files": 49,
+  "unused_code": 5694
+ },
+ "axioms": [],
+ "flags": {
+  "native_decide": {
+   "count": 0,
+   "in_proof": 0,
+   "files": []
+  },
+  "implemented_by": {
+   "count": 0,
+   "in_proof": 0,
+   "files": []
+  },
+  "extern": {
+   "count": 0,
+   "in_proof": 0,
+   "files": []
+  },
+  "unsafe": {
+   "count": 2,
+   "in_proof": 0,
+   "files": [
+    "tools/ci_native/backend/RuntimeProducer.lean"
+   ]
+  },
+  "skipKernelTC": {
+   "count": 0,
+   "in_proof": 0,
+   "files": []
+  }
+ },
+ "heartbeats": {
+  "set_to_zero": 2,
+  "largest": 64000000
+ },
+ "metaprogramming": 31,
+ "imports": {
+  "internal_edges": 367133,
+  "longest_chain": 95,
+  "most_imported": [
+   {
+    "file": "src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/IsCompletedStrictHens.lean",
+    "importers": 1138
+   },
+   {
+    "file": "src/Formalism/LocalToGlobal/IndefiniteReal/LinksDefs.lean",
+    "importers": 986
+   },
+   {
+    "file": "src/Formalism/SharpRestriction/LevelLetterCocycles/DataNLoc.lean",
+    "importers": 895
+   },
+   {
+    "file": "src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/SemiabelianSchemes/CubicalStructures/CubeSymmetricSwapFirst.lean",
+    "importers": 812
+   },
+   {
+    "file": "src/Development/AbelianVarietyTheory/BlockTheory/DivisorBase/WeilTensorModels.lean",
+    "importers": 712
+   },
+   {
+    "file": "src/Formalism/SharpRestriction/GlobalSchurBounds/GeneralLinearActions/GenusMassVolumes.lean",
+    "importers": 610
+   },
+   {
+    "file": "src/Formalism/LocalToGlobal/IndefiniteReal/LocalNewformFunction.lean",
+    "importers": 595
+   },
+   {
+    "file": "src/Formalism/LocalToGlobal/ProjectiveLattices/ErealAddIInf.lean",
+    "importers": 546
+   },
+   {
+    "file": "src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/ExtensionDescent/GlobalSectionsRankAlgClosed.lean",
+    "importers": 540
+   },
+   {
+    "file": "src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/DiscreteValuationRings/LBPull.lean",
+    "importers": 521
+   }
+  ],
+  "external_roots": {
+   "Mathlib": 1826581,
+   "Std": 7179,
+   "Aesop": 321,
+   "Lean": 70,
+   "Batteries": 18,
+   "Lake": 17,
+   "Init": 1
+  }
+ },
+ "comparators": [
+  {
+   "file": "comparator.json",
+   "challenge": "Challenge",
+   "solution": "Main",
+   "theorems": [
+    "riemannHypothesis",
+    "riemannZeta_eq_zero_re",
+    "LFunction_ne_zero_of_half_lt_re",
+    "LFunction_eq_zero_re",
+    "LFunction_eq_zero_re_of_isPrimitive"
+   ],
+   "axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+   ],
+   "challenge_file": "src/Challenge.lean"
+  }
+ ],
+ "challenge_files": [
+  "src/Challenge.lean"
+ ]
+}

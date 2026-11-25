@@ -1,0 +1,12 @@
+repo	folder	what	commit	commit_date	files	lines	code_lines	comment_lines	blank_lines	theorems_and_lemmas	declarations	sorry_total	sorry_in_checked_proof	axioms_declared	longest_import_chain	comparator_configs	toolchain
+CocoSgt/riemann-hypothesis-lean	.	Riemann Hypothesis: the release of 20 Nov 2026 (mirror)	7cbf7a0c3	2026-11-20	175187	17374215	15531759	0	1842456	818755	1066087	0		0	203	0	leanprover/lean4:v4.33.1
+leanprover-community/riemann-hypothesis	.	Riemann Hypothesis: community cleanup	fcb6eac7	2026-11-25	59773	15657390	13710596	244432	1702362	592798	755644	7	0	0	95	1	leanprover/lean4:v4.37.0-rc1
+open-goat/pequalnp-proofs	.	pequalnp.com: public AI attempt at P vs NP (says P vs NP is not settled)	0e734a1	2026-11-25	4150	3857497	3578380	31995	247122	293763	507496	0		0	43	0	
+leanprover-community/mathlib4	Mathlib	Mathlib: the whole library (Mathlib/ folder)	d909317	2026-11-25	8734	2381554	1551924	359764	469866	193122	262952	0		0	179	0	
+tristanbuckmaster/navier-stokes	.	Finite-time blow-up for Navier–Stokes (Alpöge, Buckmaster)	ad53419	2026-11-20	2271	616060	554172	0	61888	30057	38576	24	0	0	56	6	
+mccorvie/riemann-masullo	.	Masullo's GRH paper (unrefereed), being formalized	72a10ff	2026-11-24	594	556088	478075	46288	31725	18868	21579	28	8	0	41	1	leanprover/lean4:v4.36.0
+teorth/equational_theories	.	Equational Theories Project	02b063b	2026-11-22	1347	166898	143114	8806	14978	14345	16864	0		1	19	0	leanprover/lean4:v4.29.1
+fpvandoorn/carleson	.	Carleson's theorem	f7487cc	2026-11-17	128	50197	41652	3585	4960	2608	3165	6	0	0	30	1	leanprover/lean4:v4.36.0-rc1
+ImperialCollegeLondon/FLT	.	Fermat's Last Theorem (in progress)	0198058	2026-11-18	271	58809	41578	8823	8408	2241	3752	60		3	20	0	leanprover/lean4:v4.35.0
+teorth/pfr	.	Polynomial Freiman–Ruzsa conjecture	1899ce8	2026-11-23	74	21881	18250	1628	2003	923	1083	6	0	0	20	1	leanprover/lean4:v4.37.0-rc1
+thefundamentaltheor3m/Sphere-Packing-Lean	.	Sphere packing in dimension 8	072d555	2026-11-24	75	15499	10646	2243	2610	947	1311	61		2	16	0	leanprover/lean4:v4.36.0

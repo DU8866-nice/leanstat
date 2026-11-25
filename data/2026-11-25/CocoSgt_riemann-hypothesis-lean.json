@@ -1,0 +1,170 @@
+{
+ "root": "/tmp/lean/CocoSgt_riemann-hypothesis-lean",
+ "name": "CocoSgt_riemann-hypothesis-lean",
+ "meta": {
+  "toolchain": "leanprover/lean4:v4.33.1",
+  "mathlib": "0df444a360"
+ },
+ "files": 175187,
+ "lines": {
+  "lines": 17374215,
+  "code": 15531759,
+  "comment": 0,
+  "blank": 1842456
+ },
+ "declarations": {
+  "def": 212819,
+  "structure": 8286,
+  "instance": 8199,
+  "theorem": 784092,
+  "lemma": 34663,
+  "abbrev": 13202,
+  "example": 4662,
+  "inductive": 121,
+  "class": 43
+ },
+ "theorems": 818755,
+ "biggest_files": [
+  {
+   "file": "src/Formalism/HermitianCurvature/HermitianCurvatureProofs/IsAdmissibleSplittingCharPairMulTwist.lean",
+   "code": 14814
+  },
+  {
+   "file": "src/Formalism/SharpRestriction/CuspSpanNormBounds/LatticeGluingRadicals.lean",
+   "code": 8119
+  },
+  {
+   "file": "src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/FixPiIff.lean",
+   "code": 8027
+  },
+  {
+   "file": "src/Formalism/SharpRestriction/CuspSpanNormBounds/KappaEndpoints.lean",
+   "code": 6238
+  },
+  {
+   "file": "src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/CovariantDegrees.lean",
+   "code": 6141
+  },
+  {
+   "file": "src/Formalism/HermitianCurvature/HermitianCurvatureProofs/UnipotentCoordinatesMeasurePreserving.lean",
+   "code": 6140
+  },
+  {
+   "file": "src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/MemOfClosed.lean",
+   "code": 5734
+  },
+  {
+   "file": "src/Formalism/SharpRestriction/CuspSpanNormBounds/OscillatoryIntegralBounds.lean",
+   "code": 5517
+  },
+  {
+   "file": "src/Formalism/HermitianCurvature/HermitianCurvatureProofs/CoordinateCommuteRaisingConstant.lean",
+   "code": 5321
+  },
+  {
+   "file": "src/Formalism/SharpRestriction/GrowthBounds/WittFrameLocaliserOrders.lean",
+   "code": 5186
+  }
+ ],
+ "longest_declaration": {
+  "lines": 8001,
+  "name": "theorem UpperTheory.Reformulated.B.Gr34.mem_UC",
+  "file": "src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/FixPiIff.lean",
+  "line": 29
+ },
+ "sorry": {
+  "total": 0,
+  "in_proof": null,
+  "in_challenge": 0,
+  "elsewhere": 0,
+  "where_proof": [],
+  "where_elsewhere": []
+ },
+ "solution_closure": null,
+ "axioms": [],
+ "flags": {
+  "native_decide": {
+   "count": 0,
+   "in_proof": null,
+   "files": []
+  },
+  "implemented_by": {
+   "count": 0,
+   "in_proof": null,
+   "files": []
+  },
+  "extern": {
+   "count": 0,
+   "in_proof": null,
+   "files": []
+  },
+  "unsafe": {
+   "count": 0,
+   "in_proof": null,
+   "files": []
+  },
+  "skipKernelTC": {
+   "count": 0,
+   "in_proof": null,
+   "files": []
+  }
+ },
+ "heartbeats": {
+  "set_to_zero": 4,
+  "largest": 64000000
+ },
+ "metaprogramming": 91,
+ "imports": {
+  "internal_edges": 753261,
+  "longest_chain": 203,
+  "most_imported": [
+   {
+    "file": "src/Development/AbelianVarietyTheory/Definitions/Divisors/CTSmallCone.lean",
+    "importers": 3088
+   },
+   {
+    "file": "src/Development/AbelianVarietyTheory/Definitions/Divisors/SiegelWeilAnisotropicHermitian.lean",
+    "importers": 2972
+   },
+   {
+    "file": "src/Development/AbelianVarietyTheory/Definitions/Divisors/DiscreteSeriesHermitianUnique.lean",
+    "importers": 2518
+   },
+   {
+    "file": "src/Development/AbelianVarietyTheory/PublishedTheorems/AutomorphicForms₂/ExistsNormLeHeightPow.lean",
+    "importers": 2460
+   },
+   {
+    "file": "src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/UniformisationConclusion.lean",
+    "importers": 2390
+   },
+   {
+    "file": "src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/ExtensionDescent/UnifUniqSt.lean",
+    "importers": 2284
+   },
+   {
+    "file": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/CohomologicalCsdTempered.lean",
+    "importers": 2242
+   },
+   {
+    "file": "src/Development/AbelianVarietyTheory/Definitions/Divisors/ToKnownTheoremsOf.lean",
+    "importers": 1840
+   },
+   {
+    "file": "src/Development/AbelianVarietyTheory/PublishedTheorems/TwistedTraceFormula/HarishChandraModulesOn.lean",
+    "importers": 1684
+   },
+   {
+    "file": "src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/HeckeKer.lean",
+    "importers": 1429
+   }
+  ],
+  "external_roots": {
+   "Mathlib": 156238,
+   "Lean": 12,
+   "Batteries": 3
+  }
+ },
+ "comparators": [],
+ "challenge_files": []
+}
